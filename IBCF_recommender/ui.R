@@ -16,5 +16,5 @@ shinyUI(basicPage(
   )),
   
   # Credentials
-  p("This application is made by", a("Gennady Khvorykh.", href="http://followbigdata.com"), "See the", a("source code.", href=""))
+  p("This application is made by", a("Gennady Khvorykh.", href="http://followbigdata.com"), "See the", a("source code.", href="https://github.com/Gennady-Khvorykh/IBCF_recommender"))
 ))
