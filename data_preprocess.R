@@ -49,7 +49,7 @@ saveRDS(books[, c("ISBN", "url")], "IBCF_recommender/books.RDS")
 # Cast 'rating' from long into wide format and convert it into matrix
 m <- reshape2::acast(ratings, user ~ book, value.var = "rating")
 
-# Convert ratings.m into realRatingMatrix object
+# Convert m into realRatingMatrix object
 r <- as(m, "realRatingMatrix")
 
 # Clean environment
